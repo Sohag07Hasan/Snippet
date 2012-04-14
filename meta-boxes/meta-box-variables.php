@@ -5,7 +5,7 @@
  */
 
 global $post;
-$des = get_post_meta($post->ID, '_snippet_description', true);
+
 $img = get_post_meta($post->ID, '_snippet_image', true);
 $max =  get_post_meta($post->ID, '_snippet_best', true);
 $rating = get_post_meta($post->ID, '_snippet_rating', true);

@@ -35,7 +35,7 @@ update_post_meta($post_id, '_snippet_type', $type);
 update_post_meta($post_id, '_snippet_image', $img);
 update_post_meta($post_id, '_snippet_best', $max);
 update_post_meta($post_id, '_snippet_rating', $rating);
-update_post_meta($post_id, '_snippet_description', $des);
+
 update_post_meta($post_id, '_snippet_name', $name);
 update_post_meta($post_id, '_snippet_review_number', $review_number);
 

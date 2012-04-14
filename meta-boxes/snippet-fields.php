@@ -20,12 +20,6 @@ Choose any options (Default Disabled) :
 			
 <br /><br/>
 
-<strong> Description : </strong>
-<span style="font-style:italic">Provide a little description of the product/post/page (to be shown in the search engine)</span><br/>
-<textarea name="snippet_description" rows="3" cols="73"><?php echo $des; ?></textarea>			
-
-<br/><br/>
-
 <strong> Image : </strong>
 <span style="font-style:italic">Provide a valid url of the image of the product/post/ page (optional)</span>
 <input  name="snippet_image"  type="text" value="<?php echo trim($img); ?>" />
